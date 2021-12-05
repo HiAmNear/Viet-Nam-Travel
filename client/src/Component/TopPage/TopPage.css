@@ -1,0 +1,59 @@
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image:  url('https://img.thuthuatphanmem.vn/uploads/2018/10/26/anh-dep-cau-rong-da-nang-viet-nam_055418962.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(2) {
+  background-image: url('https://vietsensetravel.com/view/at_nen-di-du-lich-cao-bang-vao-mua-nao_64b7c660ec14a05336896edba2dd272a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(3) {
+  background-image: url('https://img.thuthuatphanmem.vn/uploads/2018/10/26/canh-dep-thanh-pho-hien-dai-viet-nam_055419915.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
+  #introCarousel,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active {
+    height: 50vh;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+.space{
+margin-top: 92px;
+}
+.text{
+  text-align: justify;
+}
+.toppageimgmain{
+  height:45vh;
+  width: 100%;
+}
+
+.card{
+  height: 55vh;
+}
+.card-text{
+  text-align:center;
+}

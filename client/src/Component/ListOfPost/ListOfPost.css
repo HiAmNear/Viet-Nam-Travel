@@ -1,0 +1,74 @@
+/*ListOfPost1*/
+  #int {
+        /* Margin to fix overlapping fixed navbar */
+        margin-top: 58px;
+        /*test*/
+        background-image: url(https://wall.vn/wp-content/uploads/2020/03/hinh-anh-vinh-ha-long-20.jpg);
+    height: 100vh;
+      }
+      @media (max-width: 991px) {
+        #int {
+          /* Margin to fix overlapping fixed navbar */
+          margin-top: 45px;
+        }
+      }
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+
+/*ListOfPost2*/
+#mid {
+  /* Margin to fix overlapping fixed navbar */
+  margin-top: 58px;
+  /*test*/
+  background-image: url(https://banahills.sunworld.vn/wp-content/uploads/2020/05/image6.jpg);
+  height: 100vh;
+
+}
+@media (max-width: 991px) {
+  #int {
+    /* Margin to fix overlapping fixed navbar */
+    margin-top: 45px;
+  }
+}
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+/*ListOfPost3*/
+#bottom {
+  /* Margin to fix overlapping fixed navbar */
+  margin-top: 58px;
+  /*test*/
+  background-image: url(https://icdn.dantri.com.vn/2021/04/28/img-8377-1619582765867.jpg);
+height: 100vh;
+}
+@media (max-width: 991px) {
+  #int {
+    /* Margin to fix overlapping fixed navbar */
+    margin-top: 45px;
+  }
+}
+.navbar .nav-link {
+  color: #fff !important;
+}
+.img-fluid{
+  height: 25vh;
+  width: 100%;
+}
+
+  .background{
+    background-color: blanchedalmond;
+  }
+  .ink{
+    color: black;
+  }
+  .h1{
+    color: rgb(58, 51, 34);
+    font-family: Leyton;
+    font-weight: 500;
+    background-color: cornsilk;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+  }
